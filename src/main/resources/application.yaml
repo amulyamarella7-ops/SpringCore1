@@ -1,0 +1,30 @@
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/
+    database: smartmetro
+  application:
+    name: smartmetro-api
+Server:
+    port: 8080
+
+
+logging:
+    level:
+      com:
+        smartmetro:  DEBUG
+    pattern:
+      console:  "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+    file:
+      name: logs/smartmetro-api.log
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+

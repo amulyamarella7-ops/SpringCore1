@@ -1,0 +1,17 @@
+2026-06-08T06:59:55.747+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] c.smartmetro.SmartmetroApiApplication    : Starting SmartmetroApiApplication using Java 26.0.1 with PID 3876 (C:\Users\ASUS\Downloads\smartmetro-api\smartmetro-api\build\classes\java\main started by ASUS in C:\Users\ASUS\Downloads\smartmetro-api\smartmetro-api)
+2026-06-08T06:59:55.750+05:30 DEBUG 3876 --- [smartmetro-api] [restartedMain] c.smartmetro.SmartmetroApiApplication    : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-08T06:59:55.751+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] c.smartmetro.SmartmetroApiApplication    : The following 1 profile is active: "sit"
+2026-06-08T06:59:55.819+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-08T06:59:55.819+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-08T06:59:57.304+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9095 (http)
+2026-06-08T06:59:57.321+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T06:59:57.321+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-08T06:59:57.374+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1554 ms
+2026-06-08T06:59:58.110+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-06-08T06:59:58.170+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9095 (http) with context path '/'
+2026-06-08T06:59:58.178+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] c.smartmetro.SmartmetroApiApplication    : Started SmartmetroApiApplication in 3.049 seconds (process running for 3.723)
+2026-06-08T06:59:58.267+05:30  WARN 3876 --- [smartmetro-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-08T06:59:58.267+05:30  WARN 3876 --- [smartmetro-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-08T06:59:58.268+05:30  INFO 3876 --- [smartmetro-api] [restartedMain] c.smartmetro.SmartmetroApiApplication    : smart application
+2026-06-08T07:00:51.038+05:30  INFO 3876 --- [smartmetro-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T07:00:51.043+05:30  INFO 3876 --- [smartmetro-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete

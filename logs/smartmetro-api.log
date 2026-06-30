@@ -1,0 +1,4 @@
+2026-06-22T03:26:38.614+05:30  WARN 11052 --- [smartmetro-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h38m42s369ms255µs600ns).
+2026-06-22T06:08:40.185+05:30  WARN 11052 --- [smartmetro-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h42m3s860ms564µs400ns).
+2026-06-22T06:10:30.221+05:30  WARN 11052 --- [smartmetro-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s898ms37µs700ns).
+2026-06-22T06:11:38.881+05:30  WARN 11052 --- [smartmetro-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s535ms269µs200ns).
