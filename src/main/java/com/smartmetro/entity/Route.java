@@ -17,6 +17,7 @@ public class Route {
     private int routeId;
     @Column(name="route_name")
     private String routeName;
+    @OneToMany(mappedBy = "route")
     private List<RouteStation> routeStations;
 
 

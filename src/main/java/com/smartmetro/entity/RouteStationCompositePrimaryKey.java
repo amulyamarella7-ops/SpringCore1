@@ -1,22 +1,14 @@
 package com.smartmetro.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class RouteStationCompositePrimaryKey {
-     private int routeId;
-     private int stationId;
+     private int route;
+     private int station;
+     private int sequenceNo;
 
-    public int getRouteId() {
-        return routeId;
-    }
 
-    public void setRouteId(int routeId) {
-        this.routeId = routeId;
-    }
-
-    public int getStationId() {
-        return stationId;
-    }
-
-    public void setStationId(int stationId) {
-        this.stationId = stationId;
-    }
 }

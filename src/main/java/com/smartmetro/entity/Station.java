@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @Entity
@@ -19,5 +21,12 @@ public class Station {
     private String stationCode;
     @Column(name="location")
     private String location;
+    //@OneToMany(mappedBy = "station") doubt ask
+    //Private List<RouteSytation> routeStation; doubt ask
+    @OneToMany(mappedBy = "entryStation")
+    private List<Trip> entryTrip;
+    @OneToMany(mappedBy = "exitStation")
+    private List<Trip> exitTrip;
+
 
 }

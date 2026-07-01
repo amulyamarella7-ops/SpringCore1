@@ -27,6 +27,7 @@ public class Users {
     private String role;
     @Column(name="created_at")
     private String createdAt;
+    @OneToMany(mappedBy = "user")
     private List<MetroCard> metroCards;
 // this is development branch
 }

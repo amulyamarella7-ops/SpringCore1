@@ -13,8 +13,8 @@ public class Payment {
     @Column(name="payment_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long paymentId;
-    @Column(name="card_id")
-    private long cardId;
+   // @Column(name="card_id")
+   // private long cardId;
     @Column(name="amount")
     private double amount;
     @Column(name="payment_method")
@@ -23,7 +23,10 @@ public class Payment {
     private String status;
     @Column(name="payment_date")
     private int paymentDate;
+    @ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinColumn(name="card_id")
     private MetroCard metroCard;
+
 
 
 }

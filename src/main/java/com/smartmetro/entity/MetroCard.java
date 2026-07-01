@@ -3,6 +3,7 @@ package com.smartmetro.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.catalina.User;
 
 
 import java.sql.Date;
@@ -23,14 +24,24 @@ public class MetroCard {
     private double balance;
     @Column(name="status")
     private String status;
-    @Column(name="user_id")
-    private int userId;
+    //@Column(name="user_id")
+    //private int userId;
     @Column(name="issue_date")
     private Date issuedDate;
-    private Users users;
-    private List<Trip> trips;
-    private List<TransactionHistory> transactions;
+    // private Users users;
+    //private List<Trip> trips;
+    //private List<TransactionHistory> transactions;
+    //private List<Payment> payments;
+    @ManyToOne(cascade = CascadeType.ALL,fetch=FetchType.EAGER)
+    @JoinColumn(name="user_id",referencedColumnName ="user_id" )
+    private Users user;
+    @OneToMany(mappedBy="metroCard")
+    private List<Trip> trip;
+    @OneToMany(mappedBy = "metroCard")
+    private List<TransactionHistory> transactionHistories;
+    @OneToMany(mappedBy = "metroCard")
     private List<Payment> payments;
+
 
 
 }
